@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.leafspace { display:inline-block;
+    background-image: url(source/leaf.avif);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    height: 100vh;
+    width: 380px;
+    margin: 0;
+}
+
+.dark {
+    position: absolute;
+    background-color: black;
+    width: 380px;
+    ;
+    height: 100px;
+    opacity: 70%;
+    top:100px;
+
+}
+
+.leafspace {
+
+
+    color: white;
+    font-size: 3rem;
+    text-align: right;
+}
+
+#odinlogo {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 10;
+    top: 100px;
+}
+
+.leafspace>h1 {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    vertical-align: top;
+    top:100px;
+}
+
+/* I understood that putting the h1 inside DIV would be easier to show up as first, but z-index was a good learning
+too. (I know that position is a drawback) */
+
+footer>p {position:relative; top: 480px;
+ font-size:1rem; ;
+}
+
+body {background-color: lightblue;}
+.offering {position:absolute; top: 100px; left: 600px;}
+form {position:absolute; top: 150px; left: 600px; background-color: lightgray; padding:1rem}
